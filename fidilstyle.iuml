@@ -1,0 +1,34 @@
+@startuml
+
+!define FIDIL_WHITE #F7F5F3
+!define FIDIL_GOLD #E4AA67
+!define FIDIL_ORANGE #ED613B
+!define FIDIL_GREY #A3909B
+!define FIDIL_BLUE #163650
+
+!define BACKGROUND_LIGHT WHITE
+!define BACKGROUND_DARK FIDIL_BLUE
+!define BORDER_LIGHT WHITE
+!define BORDER_DARK FIDIL_BLUE
+!define LINE FIDIL_ORANGE
+!define FONT_INVERTED WHITE
+!define FONT_LIGHT FIDIL_ORANGE
+
+skinparam {
+  shadowing false
+  roundcorner 15
+  ArrowColor LINE
+  ActorBackgroundColor BACKGROUND_LIGHT
+  ActorBorderColor BORDER_DARK
+  ActorFontColor FONT_LIGHT
+  ParticipantBorderColor BORDER_DARK
+  ParticipantBackgroundColor BACKGROUND_DARK
+  ParticipantFontColor FONT_INVERTED
+}
+
+skinparam sequence {
+  LifeLineBorderColor LINE
+  LifeLineBackgroundColor BACKGROUND_DARK
+}
+
+@enduml

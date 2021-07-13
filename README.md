@@ -1,2 +1,10 @@
 # plantuml
-Styles for Plantuml
+
+How to include plantuml styles:
+
+```
+@startuml
+!includeurl https://raw.githubusercontent.com/fidildev/plantuml/master/fidilstyle.iuml
+...
+@enduml
+```
