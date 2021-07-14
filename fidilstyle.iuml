@@ -10,6 +10,7 @@
 !define BACKGROUND_DARK FIDIL_BLUE
 !define BORDER_LIGHT WHITE
 !define BORDER_DARK FIDIL_BLUE
+!define CONTRACT FIDIL_GOLD
 !define LINE FIDIL_ORANGE
 !define FONT_DARK FIDIL_BLUE
 !define FONT_INVERTED WHITE
@@ -23,11 +24,15 @@ skinparam {
   ActorBackgroundColor BACKGROUND_LIGHT
   ActorBorderColor BORDER_DARK
   ActorFontColor FONT_LIGHT
-  
+
+  ArtifactBackgroundColor BACKGROUND_LIGHT
+  ArtifactBorderColor CONTRACT
+  ArtifactFontColor FONT_DARK
+
   NodeBackgroundColor BACKGROUND_LIGHT
   NodeBorderColor BORDER_DARK
   NodeFontColor FONT_DARK
-  
+
   ParticipantBackgroundColor BACKGROUND_DARK
   ParticipantBorderColor BORDER_DARK
   ParticipantFontColor FONT_INVERTED
