@@ -10,7 +10,9 @@
 !define BACKGROUND_DARK FIDIL_BLUE
 !define BORDER_LIGHT WHITE
 !define BORDER_DARK FIDIL_BLUE
+!define CONTRACT FIDIL_GOLD
 !define LINE FIDIL_ORANGE
+!define FONT_DARK FIDIL_BLUE
 !define FONT_INVERTED WHITE
 !define FONT_LIGHT FIDIL_ORANGE
 
@@ -18,11 +20,21 @@ skinparam {
   shadowing false
   roundcorner 15
   ArrowColor LINE
+  
   ActorBackgroundColor BACKGROUND_LIGHT
   ActorBorderColor BORDER_DARK
   ActorFontColor FONT_LIGHT
-  ParticipantBorderColor BORDER_DARK
+
+  ArtifactBackgroundColor BACKGROUND_LIGHT
+  ArtifactBorderColor CONTRACT
+  ArtifactFontColor FONT_DARK
+
+  NodeBackgroundColor BACKGROUND_LIGHT
+  NodeBorderColor BORDER_DARK
+  NodeFontColor FONT_DARK
+
   ParticipantBackgroundColor BACKGROUND_DARK
+  ParticipantBorderColor BORDER_DARK
   ParticipantFontColor FONT_INVERTED
 }
 
