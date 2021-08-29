@@ -29,6 +29,7 @@ skinparam {
 skinparam sequence {
   LifeLineBorderColor LINE
   LifeLineBackgroundColor BACKGROUND_DARK
+  ReferenceBorderColor BORDER_DARK
 }
 
 @enduml
